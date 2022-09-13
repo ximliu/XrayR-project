@@ -36,6 +36,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v4
         with:
+          ximliu/xrayr-project
           images: ghcr.io/${{ github.repository }}
       -
         name: Build and push
